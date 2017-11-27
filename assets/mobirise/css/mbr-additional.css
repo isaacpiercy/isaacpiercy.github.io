@@ -1715,7 +1715,7 @@ body {
   flex-basis: auto;
 }
 .cid-qCdt6fkHWR {
-  background-image: url("../../../assets/images/jumbotron0.jpg");
+  background-image: url("../../../assets/images/jumbotron.jpg");
 }
 .cid-qCdt6gR6Tw {
   padding-top: 60px;
@@ -1784,42 +1784,82 @@ body {
     -webkit-justify-content: center;
   }
 }
-.cid-qCdF7ohl3Z {
+.cid-qCdHYX090l {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #f9f9f9;
 }
-.cid-qCdF7ohl3Z h2 {
-  text-align: center;
+.cid-qCdHYX090l .mbr-section-subtitle {
+  color: #767676;
 }
-.cid-qCdF7ohl3Z h4 {
-  text-align: center;
-  z-index: 1;
-  color: #ffffff;
+.cid-qCdHYX090l .container-table {
+  margin: 0 auto;
 }
-.cid-qCdF7ohl3Z p {
-  z-index: 1;
+.cid-qCdHYX090l .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-qCdHYX090l .dataTables_wrapper {
+  display: block;
+}
+.cid-qCdHYX090l .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-qCdHYX090l .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-qCdHYX090l table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
   margin-bottom: 0;
-  color: #ffffff;
 }
-.cid-qCdF7ohl3Z .media-container-row {
-  word-wrap: break-word;
-  word-break: break-word;
-  align-items: stretch;
-  -webkit-align-items: stretch;
+.cid-qCdHYX090l table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
 }
-.cid-qCdF7ohl3Z .card-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+.cid-qCdHYX090l table th:hover {
+  background: #cccccc;
+  color: #000000;
 }
-.cid-qCdF7ohl3Z .card-img img {
-  z-index: -1;
-  min-height: 100%;
-  min-width: 100%;
+.cid-qCdHYX090l table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-qCdHYX090l table.table {
+  background: #ffffff;
+}
+.cid-qCdHYX090l .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-qCdHYX090l .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-qCdHYX090l .dataTables_filter input {
+  display: inline;
   width: auto;
-  max-width: 600px;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-qCdHYX090l .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-qCdHYX090l .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-qCdHYX090l .dataTables_filter {
+    text-align: center;
+  }
+  .cid-qCdHYX090l .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
 }
